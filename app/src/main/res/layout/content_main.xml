@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ranganathan.myapplication.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:padding="@dimen/fab_margin">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Press fab to choose video file"
+        android:id="@+id/txtTime"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:layout_margin="@dimen/fab_margin"/>
+
+</LinearLayout>
