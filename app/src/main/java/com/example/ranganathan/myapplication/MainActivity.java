@@ -119,11 +119,8 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //timeIn = Long.parseLong(txtTime.getText().toString());
-
                 Intent i = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Video.Media.EXTERNAL_CONTENT_URI);
                 startActivityForResult(i, SELECT_VIDEO);
-
             }
         });
 
